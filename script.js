@@ -111,4 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
           bird.velocity = bird.jumpHeight;
         }
       });
+      canvas.addEventListener('touchstart', () => {
+        bird.velocity = bird.jumpHeight;
+      });
     });
